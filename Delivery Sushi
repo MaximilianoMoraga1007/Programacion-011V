@@ -1,0 +1,31 @@
+# Delivery Sushi
+PikachuRoll = 4500
+OtakuRoll = 5000
+PulpoVenenosoRoll = 5200
+AnguilaElectricaRoll = 4800
+print("Bienvenido a Dako Sushi")
+
+print("Menu")
+print("1. Pikachu Roll $4500 c/u")
+print("2. Otaku Roll $ 5000 c/u")
+print("3. Pulpo Venenoso Roll $5200 c/u")
+print("4. Anguila Electrica Roll $4800 c/u")
+print("5. Terminar Pedido")
+
+while True:
+
+   opcion = input("Por favor, seleccione una opcion (1-5):")
+
+   if opcion == "1":
+       print("Has seleccionado Pikachu Roll $4500 ")
+   elif opcion == "2":
+       print("Has seleccionado Otaku Roll $5000 ")
+   elif opcion == "3":
+        print("Has seleccionado Pulpo Venenoso Roll $5200 ")
+   elif opcion == "4":
+       print("Has seleccionado Anguila electrica Roll $4800 ")
+   elif opcion == "5":
+        print("Has sleccionado la opcion 5, Terminar Pedido. ")
+else:
+     print("Opcion invalida, por favor,seleccione una opcion valida ")        
+ 
